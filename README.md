@@ -33,3 +33,5 @@ If there's something wrong it'll return status 500 with an error
 ```
 bad input: type=1, value='x', context=('', (1, 35))
 ```
+
+Additionally there is a health check endpoint at `/health` which returns "OK" as the body and status 200
