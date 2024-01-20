@@ -1,5 +1,7 @@
 # Python 2to3 API
 
+> Keep it simple, stupid
+
 Simple Flask API for converting Python 2 scripts to Python 3 using lib2to3.
 
 ## Usage
