@@ -29,4 +29,7 @@ print("Be careful not to fall off!")
 ```
 
 If there's something wrong it'll return status 500 with an error
-`bad input: type=1, value='x', context=('', (1, 35))`
+
+```
+bad input: type=1, value='x', context=('', (1, 35))
+```
