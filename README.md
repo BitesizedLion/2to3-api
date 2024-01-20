@@ -6,13 +6,11 @@ Simple Flask API for converting Python 2 scripts to Python 3 using lib2to3.
 
 1. Build and run the Docker image:
 
-   ```bash
-   docker build -t python-2to3-api .
+   `docker build -t python-2to3-api .`
 
-   docker run -p 5000:5000 python-2to3-api
-   ```
+   `docker run -p 5000:5000 python-2to3-api`
 
-3. Send a POST request to http://localhost:5000/convert containing the Python script to be converted.
+3. Send a POST request to `http://localhost:5000/convert` containing the Python script to be converted.
 
    Example using curl:
 
